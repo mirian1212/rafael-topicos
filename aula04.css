@@ -1,0 +1,31 @@
+* {
+  margin:5px 0PX 3px 130px;
+  padding: 0px;
+  font-family: "roboto", sans-serif;
+  /* diminuir a borda */
+  /* se tiver só duas medidas a primeira vai pra cima e pra baixo e a segunda para os lados */
+}
+
+body{
+  background-color: #DADADA;
+}
+
+.site{
+     background-color: #FFFFFF;
+     width: 800PX;
+     padding: 40px;
+}
+/*  a div conteudo dentro do site*/
+.site .conteudo{
+  background-color: pink;
+  min-height: 200px;
+  margin: 15px 0px;
+  padding: 15px 5px;
+  border-style: dashed;
+  border-color: #000000;
+}
+
+.site .topo, .topo .rodape{
+  font-family: "verdana";
+  text-align: 80px;
+}
