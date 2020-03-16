@@ -1,0 +1,96 @@
+/*   o * funciona pra tudo  */
+* {
+  margin: 0px auto;
+  padding: 0px;
+  font-family: "roboto", sans-serif;
+  /* diminuir a borda */
+  /* se tiver só duas medidas a primeira vai pra cima e pra baixo e a segunda para os lados */
+}
+
+body{
+  background-color: #DADADA;
+}
+
+.site{
+     background-color: #FFFFFF;
+     width: 800PX;
+     padding: 40px 0px;
+}
+/*  a div conteudo dentro do site*/
+.site .conteudo{
+  background-color:#e6e6ff;
+  min-height: 200px;
+  margin: 15px 0px;
+  padding: 15px 50px;
+  border-top: solid 2px;
+  border-color: #000000;
+  border-bottom: solid 2px;
+}
+
+.site .topo, .topo .rodape{
+  font-family: "verdana";
+  text-align: 80px;
+}
+
+.botao{
+  font-size:20px;
+  /* tamanho do botão */
+  text-decoration: none;
+  padding: 5px 15px;
+  display: inline-block;
+  border-radius: 5px;
+  color: #000000;
+}
+
+.botao-rosa{
+  background-color: #ffe6f9 ;
+  border: solid 1px #ff33cc;
+}
+.botao-rosa:hover{
+  background-color: #b300b3;
+}
+.botao-verde{
+  background-color: #e6ffe6;
+  border: solid 1px  #00e600;
+}
+.botao-verde:hover{
+  background-color: #00cc00;
+}
+
+.botao-roxo{
+  background-color:  #e580ff;
+  border: solid 1px   #8f00b3;
+}
+
+.botao-roxo:hover{
+  background-color:  #9900cc;
+  /* fonte-size muda o tamanho do botão */
+}
+.site .topo{
+  text-align: center;
+}
+.menu{
+  background-color:  #f2f2f2;
+  text-align: center;
+}
+.menu ul{
+  list-style-type: none;
+  /* remove as bolinhas */
+}
+
+.menu ul li{
+display: inline-block;
+/*  tudo na mesma linha*/
+}
+
+.menu a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 5px;
+  /* remove o "_" // tranforma em blocos // altera o tamanho*/
+}
+
+.menu a:hover{
+  background-color: #cccccc;
+  border-radius: 5px;
+}

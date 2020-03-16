@@ -1,5 +1,6 @@
+/*   o * funciona pra tudo  */
 * {
-  margin:5px 0PX 3px 130px;
+  margin: 0px auto;
   padding: 0px;
   font-family: "roboto", sans-serif;
   /* diminuir a borda */
@@ -23,6 +24,7 @@ body{
   padding: 15px 5px;
   border-style: dashed;
   border-color: #000000;
+  border: solid 1px; 
 }
 
 .site .topo, .topo .rodape{
